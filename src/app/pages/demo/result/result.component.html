@@ -1,0 +1,29 @@
+
+    <nz-result
+      nzStatus="success"
+      nzTitle="Successfully Purchased Cloud Server ECS!"
+      nzSubTitle="Order number: 2017182818828182881 Cloud server configuration takes 1-5 minutes, please wait."
+    >
+      <div nz-result-extra>
+        <button nz-button nzType="primary">Go Console</button>
+        <button nz-button>Buy Again</button>
+      </div>
+    </nz-result>
+
+    <nz-result nzStatus="info" nzTitle="Your operation has been executed">
+      <div nz-result-extra>
+        <button nz-button nzType="primary">Go Console</button>
+      </div>
+    </nz-result>
+
+    <nz-result nzStatus="403" nzTitle="403" nzSubTitle="Sorry, you are not authorized to access this page.">
+      <div nz-result-extra>
+        <button nz-button nzType="primary">Back Home</button>
+      </div>
+    </nz-result>
+
+    <nz-result [nzIcon]="'smile-twotone'" [nzTitle]="'Great, we have done all the operators!'">
+      <div nz-result-extra>
+        <button nz-button nzType="primary">Next</button>
+      </div>
+    </nz-result>
