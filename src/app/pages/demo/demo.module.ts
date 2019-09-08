@@ -11,10 +11,10 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { StatisticComponent } from './statistic/statistic.component';
 import { LineComponent } from './line/line.component';
 import { ResultComponent } from './result/result.component';
-import { SkeletonComponent } from './skeleton/skeleton.component';
+import { LayoutComponent } from './layout/layout.component';
 
 @NgModule({
-  declarations: [DemoComponent, LoginComponent, DatePickerComponent, TimelineComponent, StatisticComponent, LineComponent, ResultComponent, SkeletonComponent],
+  declarations: [DemoComponent, LoginComponent, DatePickerComponent, TimelineComponent, StatisticComponent, LineComponent, ResultComponent, LayoutComponent ],
   imports: [
     CommonModule,
     DemoRoutingModule,

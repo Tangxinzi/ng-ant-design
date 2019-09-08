@@ -17,7 +17,7 @@
 
 .header-trigger {
   height: 64px;
-  padding: 20px 24px;
+  padding: 0 24px;
   font-size: 20px;
   cursor: pointer;
   transition: all .3s,padding 0s;
@@ -64,11 +64,21 @@ nz-header {
 }
 
 .app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   height: 64px;
   padding: 0;
   background: #fff;
+  border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
+}
+
+.app-header .ant-menu,
+.app-header .ant-menu li {
+  height: 64px;
+  line-height: 64px;
 }
 
 nz-content {

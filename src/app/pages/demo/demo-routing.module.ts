@@ -7,6 +7,7 @@ import { TimelineComponent } from './timeline/timeline.component';
 import { StatisticComponent } from './statistic/statistic.component';
 import { LineComponent } from './line/line.component';
 import { ResultComponent } from './result/result.component';
+import { LayoutComponent } from './layout/layout.component';
 
 const routes: Routes = [
   { path: '', component: DemoComponent },
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'statistic', component: StatisticComponent },
   { path: 'line', component: LineComponent },
   { path: 'result', component: ResultComponent },
+  { path: 'layout', component: LayoutComponent },
 ];
 
 @NgModule({
